@@ -21,7 +21,7 @@ $('#bannerslide').owlCarousel({
 })
 
 $('#testimonialslide, .category-slide, #styleslide').owlCarousel({
-    loop:false,
+    loop:true,
     margin:10,
     nav:true,
     autoplay:false,
