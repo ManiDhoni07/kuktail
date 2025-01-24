@@ -16,23 +16,25 @@
 
 <body>
   <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
-  <header class="p-4">
+  <header id="header" class="py-4">
     <div class="container">
       <nav class="navbar navbar-dark">
-        <a class="navbar-brand wow animate__animated animate__bounceIn" href="index.html">
+        <a class="navbar-brand" href="index.html">
           <img src="images/logo.svg" alt="Kuktail" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+        <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-label="Toggle navigation">
-          <img src="images/iconamoon_menu.svg" alt=""/>
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1"  id="navbarNav">
           <div class="inner-nav-container">
             <div class="offcanvas-header">
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">
+            
             </button>
           </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body pt-5">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="wedding.html">Weddings</a></li>
@@ -62,39 +64,49 @@
         <img src="images/contact.png" alt="Wedding" class="img-fluid mb-3">
         <p class="lead text-uppercase mb-3">Contact Us</p>
         <h1 class="display-4 mb-4">We’re just a message away</h1>
-        <p class="lead mb-0">Have questions, feedback, or special requests? We’re here to assist you every step of the way. Reach out to us for personalized support and discover how we can make your experience with Kuktail seamless and delightful.</p>
+        <p class="col-md-9 lead mb-0">Have questions, feedback, or special requests? We’re here to assist you every step of the way. Reach out to us for personalized support and discover how we can make your experience with Kuktail seamless and delightful.</p>
       </div>
     </section>
 
-    <section class="feature-step py-5 bg-white-section wow animate__animated animate__zoomIn">
-      <div class="container">
-        <p class="mb-3"><b>Address -</b> 6th mile, Kumily, Chakkupallam, Kerala 685509</p>
-        <p class="mb-3"><b>Contact No -</b>  (+91) 844 5566 131</p>
-        <p class="mb-3"><b>Store Timings -</b>  Monday to Sunday (09:00AM - 08:00PM)</p>
-        <img src="images/shop.png" alt="contact" class="img-fluid rounded mb-3" />
-        <a href="#" class="btn btn-primary btn-dark px-4">Get Directions</a>
+    <section class="feature-step py-5 bg-white-section">
+      <div class="container wow animate__animated animate__fadeInUp">
+        <div class="row">
+          <div class="col-md-8 order-md-1">
+            <p class="mb-3"><b>Address -</b> 6th mile, Kumily, Chakkupallam, Kerala 685509</p>
+            <p class="mb-3"><b>Contact No -</b>  (+91) 844 5566 131</p>
+            <p class="mb-3"><b>Store Timings -</b>  Monday to Sunday (09:00AM - 08:00PM)</p>
+          </div>
+          <div class="col-md-4 order-md-0">
+            <img src="images/shop.png" alt="contact" class="img-fluid rounded mb-3" />
+          </div>
+          <div class="col-12 order-md-2">
+            <a href="#" class="btn btn-primary btn-dark px-4">Get Directions</a>
+          </div>
+        </div>
+        
+        
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-white py-4 wow animate__animated animate__fadeInUp">
-      <div class="container">
+    <footer class="text-white py-4">
+      <div class="container wow animate__animated animate__fadeInUp">
         <div class="row">
           <div class="col-md-6 mb-4">
             <p class="strong-about text-white">About Kuktail</p>
             <p>At Kuktail, every garment is a canvas of passion, weaving tradition and modernity into each thread. Celebrate the art of fashion with us, where each piece tells a unique story.</p>
             <ul class="list-inline social-list">
-              <li class="list-inline-item"><a aria-label="facebook" href="https://www.facebook.com/kuktailboutique/">
+              <li class="list-inline-item"><a target="_blank" aria-label="facebook" href="https://www.facebook.com/kuktailboutique/">
                   <img src="images/facebook.png" alt="" /> <span class="visually-hidden">facebook</span>
                 </a></li>
-              <li class="list-inline-item"><a aria-label="instagram" href="https://www.instagram.com/kuktail_boutique/">
+              <li class="list-inline-item"><a target="_blank" aria-label="instagram" href="https://www.instagram.com/kuktail_boutique/">
                   <img src="images/instagram.png" alt="" /> <span class="visually-hidden">instagram</span>
                 </a></li>
             </ul>
             <p class="address-part">
               <img src="images/location_on.png" alt="" /> 6th mile, Kumily, Kerala
             </p>
-            <a href="https://maps.app.goo.gl/k9UeBce3vBZNAX4A6" class="btn btn-primary direction-click">Get Direction</a>
+            <a target="_blank" href="https://maps.app.goo.gl/k9UeBce3vBZNAX4A6" class="btn btn-primary direction-click">Get Direction</a>
           </div>
           <div class="col-md-6">
 

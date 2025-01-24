@@ -16,23 +16,25 @@
 
 <body>
   <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
-  <header class="p-4">
+  <header id="header" class="py-4">
     <div class="container">
       <nav class="navbar navbar-dark">
-        <a class="navbar-brand wow animate__animated animate__bounceIn" href="index.html">
+        <a class="navbar-brand" href="index.html">
           <img src="images/logo.svg" alt="Kuktail" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+        <button class="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-label="Toggle navigation">
-          <img src="images/iconamoon_menu.svg" alt=""/>
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1"  id="navbarNav">
           <div class="inner-nav-container">
             <div class="offcanvas-header">
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">
+            
             </button>
           </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body pt-5">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="wedding.html">Weddings</a></li>
@@ -62,14 +64,14 @@
         <img src="images/faq.png" alt="Wedding" class="img-fluid mb-3">
         <p class="lead text-uppercase mb-3">FAQs</p>
         <h1 class="display-4 mb-4">Sewing up your doubts</h1>
-        <p class="lead mb-0">Curious about how we create your perfect fit or how long it takes to craft your custom piece? We've stitched together everything you need to know about our process, policies, and more. Dive into the details and discover what makes Kuktail unique.</p>
+        <p class="col-md-9 lead mb-0">Curious about how we create your perfect fit or how long it takes to craft your custom piece? We've stitched together everything you need to know about our process, policies, and more. Dive into the details and discover what makes Kuktail unique.</p>
       </div>
     </section>
 
     <section class="feature-step py-5 bg-white-section">
       <div class="container">
         <div class="accordion" id="accordionExample">
-          <div class="accordion-item wow animate__animated animate__fadeInLeft">
+          <div class="accordion-item wow animate__animated animate__fadeInUp">
             <h2 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 What customization options do you offer?
@@ -81,7 +83,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item wow animate__animated animate__fadeInLeft">
+          <div class="accordion-item wow animate__animated animate__fadeInUp">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 What customization options do you offer?
@@ -93,7 +95,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item wow animate__animated animate__fadeInLeft">
+          <div class="accordion-item wow animate__animated animate__fadeInUp">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 What customization options do you offer?
@@ -109,8 +111,8 @@
       </div>
     </section>
 
-<section class="feature-step py-5 bg-white-section-new wow animate__animated animate__fadeInUp">
-  <div class="container">
+<section class="feature-step py-5 bg-white-section-new ">
+  <div class="container wow animate__animated animate__fadeInUp">
     <h2 class="mb-3 headings">Still Have Questions?</h2>
     <p class="mb-3">We’re here to help! Feel free to reach out to us anytime.</p>
     <a href="#" class="btn btn-primary btn-dark px-4">Contact Us</a>
@@ -120,24 +122,24 @@
 
 
     <!-- Footer -->
-    <footer class="text-white py-4 wow animate__animated animate__fadeInUp">
-      <div class="container">
+    <footer class="text-white py-4">
+      <div class="container wow animate__animated animate__fadeInUp">
         <div class="row">
           <div class="col-md-6 mb-4">
             <p class="strong-about text-white">About Kuktail</p>
             <p>At Kuktail, every garment is a canvas of passion, weaving tradition and modernity into each thread. Celebrate the art of fashion with us, where each piece tells a unique story.</p>
             <ul class="list-inline social-list">
-              <li class="list-inline-item"><a aria-label="facebook" href="https://www.facebook.com/kuktailboutique/">
+              <li class="list-inline-item"><a target="_blank" aria-label="facebook" href="https://www.facebook.com/kuktailboutique/">
                   <img src="images/facebook.png" alt="" /> <span class="visually-hidden">facebook</span>
                 </a></li>
-              <li class="list-inline-item"><a aria-label="instagram" href="https://www.instagram.com/kuktail_boutique/">
+              <li class="list-inline-item"><a target="_blank" aria-label="instagram" href="https://www.instagram.com/kuktail_boutique/">
                   <img src="images/instagram.png" alt="" /> <span class="visually-hidden">instagram</span>
                 </a></li>
             </ul>
             <p class="address-part">
               <img src="images/location_on.png" alt="" /> 6th mile, Kumily, Kerala
             </p>
-            <a href="https://maps.app.goo.gl/k9UeBce3vBZNAX4A6" class="btn btn-primary direction-click">Get Direction</a>
+            <a target="_blank" href="https://maps.app.goo.gl/k9UeBce3vBZNAX4A6" class="btn btn-primary direction-click">Get Direction</a>
           </div>
           <div class="col-md-6">
 
