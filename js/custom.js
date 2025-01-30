@@ -6,7 +6,7 @@ $('#bannerslide').owlCarousel({
     autoplaySpeed:2000,
     autoplayTimeout:2000,
     slideTransition: 'linear',
-    autoplayHoverPause:true,
+    autoplayHoverPause:false,
     responsive:{
         0:{
             items:2.2
@@ -21,17 +21,20 @@ $('#bannerslide').owlCarousel({
 })
 
 $('#testimonialslide, .category-slide, #styleslide').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:true,
     autoplay:false,
+    mouseDrag: true,
+    touchDrag: true, 
     responsive:{
         0:{
-            items:1.2,
+            items:1,
+            stagePadding: 50,
             nav:false
         },
         600:{
-            items:2.2
+            items:2
         },
         1000:{
             items:3
